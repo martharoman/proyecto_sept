@@ -37,6 +37,8 @@ import {
   dashboardNASDAQChart
 } from "variables/charts.js";
 
+import Fechita from "components/Fechita/Fechita";
+
 function Dashboard() {
   return (
     <>
@@ -56,7 +58,7 @@ function Dashboard() {
                       <p className="card-category">NOMBRE DEL ALUMNO:</p>
                       <CardTitle tag="p">Martha Roman</CardTitle>
                       <p className="card-category">FECHA:</p>
-                      <CardTitle tag="p">XXXXXXX</CardTitle>
+                      <CardTitle tag="p"><Fechita/></CardTitle>
                       <p className="card-category">CARRERA</p>
                       <CardTitle tag="p">DGS</CardTitle>
                       <p />
